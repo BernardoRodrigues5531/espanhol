@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Avaliação de espanhol</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+      background-color: #f5f8ff;
+    }
+    #pagina2 {
+      display: none;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 20px;
+      cursor: pointer;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    form {
+      text-align: left;
+      max-width: 700px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h3 {
+      margin-top: 20px;
+    }
+    #resultado {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    #mensagemCertificado {
+      font-size: 20px;
+      color: green;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Página 1 -->
+  <div id="pagina1">
+    <h1>AVALIAÇÃO DE ESPANHOL</h1>
+    <p>10 questões de múltipla escolha. Cada questão vale 1 ponto.<br>
+    Pontuação mínima para aprovação: <b>6,0</b>.<br>
+    Após finalizar, envie mensagem para o nosso WhatsApp para receber seu certificado.</p>
+    <img src="https://www.agbt.com.br/wp-content/uploads/2020/02/O-Melhor-Tradutor-de-Portugu%C3%AAs-para-Espanhol.jpg" alt="Imagem" width="300">
+    <br>
+    <button onclick="mostrarPagina2()">Iniciar Questionário</button>
+  </div>
+
+  <!-- Página 2 -->
+  <div id="pagina2">
+    <h1>Questionário de espanhol</h1>
+    <form id="quizForm">
+
+      <!-- Questão 1 -->
+<h3>1. Como se diz "Olá" em espanhol?</h3>
+<label><input type="radio" name="q1" value="a"> Adiós</label><br>
+<label><input type="radio" name="q1" value="b"> Gracias</label><br>
+<label><input type="radio" name="q1" value="c"> Hola</label><br>
+<label><input type="radio" name="q1" value="d"> Por favor</label><br>
+
+<!-- Questão 2 -->
+<h3>2. Como se diz "Bom dia" em espanhol?</h3>
+<label><input type="radio" name="q2" value="a"> Buenas noches</label><br>
+<label><input type="radio" name="q2" value="b"> Buenos días</label><br>
+<label><input type="radio" name="q2" value="c"> Buenas tardes</label><br>
+<label><input type="radio" name="q2" value="d"> Hasta luego</label><br>
+
+<!-- Questão 3 -->
+<h3>3. Qual é a tradução de "Obrigado"?</h3>
+<label><input type="radio" name="q3" value="a"> Perdón</label><br>
+<label><input type="radio" name="q3" value="b"> Gracias</label><br>
+<label><input type="radio" name="q3" value="c"> Hola</label><br>
+<label><input type="radio" name="q3" value="d"> Adiós</label><br>
+
+<!-- Questão 4 -->
+<h3>4. Como se diz "Meu nome é..." em espanhol?</h3>
+<label><input type="radio" name="q4" value="a"> Mi nombre es...</label><br>
+<label><input type="radio" name="q4" value="b"> Yo nombre...</label><br>
+<label><input type="radio" name="q4" value="c"> Nombre mío...</label><br>
+<label><input type="radio" name="q4" value="d"> Soy nombre...</label><br>
+
+<!-- Questão 5 -->
+<h3>5. Como se pergunta "Como você está?" em espanhol?</h3>
+<label><input type="radio" name="q5" value="a"> ¿Quién eres?</label><br>
+<label><input type="radio" name="q5" value="b"> ¿Dónde estás?</label><br>
+<label><input type="radio" name="q5" value="c"> ¿Cómo estás?</label><br>
+<label><input type="radio" name="q5" value="d"> ¿Qué haces?</label><br>
+
+<!-- Questão 6 -->
+<h3>6. Qual a tradução de "Sim"?</h3>
+<label><input type="radio" name="q6" value="a"> No</label><br>
+<label><input type="radio" name="q6" value="b"> Tal vez</label><br>
+<label><input type="radio" name="q6" value="c"> Sí</label><br>
+<label><input type="radio" name="q6" value="d"> Nunca</label><br>
+
+<!-- Questão 7 -->
+<h3>7. Como se diz "Não" em espanhol?</h3>
+<label><input type="radio" name="q7" value="a"> No</label><br>
+<label><input type="radio" name="q7" value="b"> Sí</label><br>
+<label><input type="radio" name="q7" value="c"> Nunca</label><br>
+<label><input type="radio" name="q7" value="d"> Quizás</label><br>
+
+<!-- Questão 8 -->
+<h3>8. Como se diz "Eu sou do Brasil" em espanhol?</h3>
+<label><input type="radio" name="q8" value="a"> Soy Brasil</label><br>
+<label><input type="radio" name="q8" value="b"> Yo Brasil</label><br>
+<label><input type="radio" name="q8" value="c"> Soy de Brasil</label><br>
+<label><input type="radio" name="q8" value="d"> Brasil soy</label><br>
+
+<!-- Questão 9 -->
+<h3>9. Como se diz "Até logo" em espanhol?</h3>
+<label><input type="radio" name="q9" value="a"> Gracias</label><br>
+<label><input type="radio" name="q9" value="b"> Hasta luego</label><br>
+<label><input type="radio" name="q9" value="c"> Buenos días</label><br>
+<label><input type="radio" name="q9" value="d"> Hola</label><br>
+
+<!-- Questão 10 -->
+<h3>10. Qual a tradução de "Por favor"?</h3>
+<label><input type="radio" name="q10" value="a"> Gracias</label><br>
+<label><input type="radio" name="q10" value="b"> Perdón</label><br>
+<label><input type="radio" name="q10" value="c"> Por favor</label><br>
+<label><input type="radio" name="q10" value="d"> Adiós</label><br>
+      <button type="button" onclick="checkAnswers()">Enviar Respostas</button>
+    </form>
+
+    <p id="resultado"></p>
+    <p id="mensagemCertificado"></p>
+  </div>
+
+  <script>
+    // Mostrar a página de perguntas
+    function mostrarPagina2() {
+      document.getElementById('pagina1').style.display = 'none';
+      document.getElementById('pagina2').style.display = 'block';
+    }
+
+    // Verificar respostas
+    function checkAnswers() {
+      let total = 0;
+      const respostas = {
+  q1: 'c',
+  q2: 'b',
+  q3: 'b',
+  q4: 'a',
+  q5: 'c',
+  q6: 'c',
+  q7: 'a',
+  q8: 'c',
+  q9: 'b',
+  q10: 'c'
+};
+
+      for (let i = 1; i <= 10; i++) {
+        const q = document.querySelector('input[name="q'+i+'"]:checked');
+        if (q && q.value === respostas['q'+i]) total++;
+      }
+
+      document.getElementById('resultado').innerText = "Você acertou " + total + " de 10 perguntas.";
+
+      if (total >= 6) {
+        document.getElementById('mensagemCertificado').innerHTML =
+        "🎉 PARABÉNS! Envie mensagem para o nosso <a href='https://wa.me/5592984717426' target='_blank'>WhatsApp</a> para receber seu certificado.";
+      } else {
+        document.getElementById('mensagemCertificado').innerText = "Continue praticando! Tente novamente.";
+      }
+    }
+  </script>
+
+</body>
+</html>
